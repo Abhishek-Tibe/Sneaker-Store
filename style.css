@@ -20,7 +20,7 @@ h1 {
     font-size: 60px;
     text-align: center;
     padding: 30px;
-    
+    color: red;
 }
 
 .shoeItems {
@@ -81,4 +81,11 @@ h1 {
 .image > img:hover {
     scale: 1.18;
     transition: 0.40s all ease-out;
+    cursor: pointer;
+}
+
+.cart > img:hover {
+    scale: 1.18;
+    transition: 0.20s all ease-out;
+    cursor: pointer;
 }
