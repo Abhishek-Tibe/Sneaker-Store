@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.store {
+    margin: auto;
+    min-height: 100%;
+    width: 60%;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.shoeItems {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 10px;
+    width: 31%;
+    min-height: 380px;
+    box-shadow: 9px 9px 35px rgba(125, 122, 125, 0.296);
+    padding: 7px;
+    margin-bottom: 40px;
+}
+
+.image {
+    width: 100%; 
+    height: 260px; 
+    overflow: hidden;
+    border-radius: 20px;   
+}
+
+.image > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7px;
+    
+}
+
+.cart > img {
+    width: 80%;
+    height: 52%;
+}
+
+.description {
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.p {
+    font-size: 16px;
+}
+
+.image > img:hover {
+    scale: 1.18;
+    transition: 0.40s all ease-out;
+}
